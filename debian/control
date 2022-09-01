@@ -1,0 +1,12 @@
+Source: ros-noetic-audio-recorder
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-audio-recorder-msgs, ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-audio-recorder
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-audio-recorder-msgs, ros-noetic-roscpp, ros-noetic-std-msgs
+Description: Utilities for recording audio data to a file on-disk
