@@ -1,8 +1,0 @@
-bool arg
----
-bool success
-string path
-uint64 size
-uint64 duration
----
-bool arg
