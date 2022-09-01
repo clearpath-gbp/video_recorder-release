@@ -1,0 +1,23 @@
+ros-noetic-video-recorder (0.0.3-1focal) focal; urgency=high
+
+  * Allow cancelling fixed-duration videos
+  * Create the output directory if it doesn't already exist
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 01 Sep 2022 04:00:00 -0000
+
+ros-noetic-video-recorder (0.0.2-1focal) focal; urgency=high
+
+  * Add an optional parameter to set a hard maximum duration on videos recorded by the node.
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 24 Jun 2022 04:00:00 -0000
+
+ros-noetic-video-recorder (0.0.1-1focal) focal; urgency=high
+
+  * Initial release
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 22 Jun 2022 04:00:00 -0000
+
+
