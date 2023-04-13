@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>video_recorder</name>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <description>Utilities for recording image data to a video file on-disk</description>
 
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
@@ -12,10 +12,13 @@
   <depend>actionlib</depend>
   <depend>actionlib_msgs</depend>
   <depend>cv_bridge</depend>
+  <depend>geometry_msgs</depend>
   <depend>image_transport</depend>
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>tf</depend>
+  <depend>tf2</depend>
   <depend>video_recorder_msgs</depend>
 
   <export>
