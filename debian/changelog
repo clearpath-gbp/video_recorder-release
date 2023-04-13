@@ -1,0 +1,30 @@
+ros-noetic-audio-recorder (0.0.5-1focal) focal; urgency=high
+
+  * Add ability to record meta-data about each recording
+  * Initial implementation of audio_recorder metadata to match the video_recorder implementation
+  * Create the output directory for the audio recorder node to keep the behaviour consistent with the video recorder
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 13 Apr 2023 04:00:00 -0000
+
+ros-noetic-audio-recorder (0.0.4-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 22 Sep 2022 04:00:00 -0000
+
+ros-noetic-audio-recorder (0.0.3-1focal) focal; urgency=high
+
+  * Update the docs, add the is_recording + default filename to the audio recorder
+  * Add the first-pass audio-recorder action server. Very similar format to the video recorder, but for dumping ALSA input to wav files.
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 01 Sep 2022 04:00:00 -0000
+
+ros-noetic-audio-recorder (0.0.1-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 22 Jun 2022 04:00:00 -0000
+
+
