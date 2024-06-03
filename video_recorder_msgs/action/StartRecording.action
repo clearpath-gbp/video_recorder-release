@@ -1,0 +1,10 @@
+string filename
+uint64 duration
+---
+std_msgs/Header header
+bool success
+string path
+---
+uint32 time_elapsed
+uint32 time_remaining
+uint32 n_frames
