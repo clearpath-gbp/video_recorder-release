@@ -1,0 +1,75 @@
+ros-noetic-video-recorder-msgs (0.1.1-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 03 Jun 2024 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.1.0-1focal) focal; urgency=high
+
+  * Add a header to the result objects for all actions (#6 <https://github.com/clearpathrobotics/video_recorder/issues/6>)
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 27 May 2024 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.10-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 04 Jan 2024 05:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.9-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 07 Sep 2023 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.8-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Aug 2023 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.7-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Aug 2023 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.6-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 16 Aug 2023 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.5-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 13 Apr 2023 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.4-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 22 Sep 2022 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.3-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 01 Sep 2022 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.2-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 24 Jun 2022 04:00:00 -0000
+
+ros-noetic-video-recorder-msgs (0.0.1-1focal) focal; urgency=high
+
+  * Initial release
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 22 Jun 2022 04:00:00 -0000
+
+
