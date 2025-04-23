@@ -1,0 +1,106 @@
+ros-jazzy-video-recorder (2.0.1-1noble) noble; urgency=high
+
+  * Remove old ROS1 depends
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Apr 2025 04:00:00 -0000
+
+ros-jazzy-video-recorder (2.0.0-1noble) noble; urgency=high
+
+  * latch the is_recording topic
+  * updated video_recorder to ROS2 Jazzy
+  * Contributors: José Mastrangelo
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Apr 2025 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.1.1-1noble) noble; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 03 Jun 2024 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.1.0-1noble) noble; urgency=high
+
+  * Add a header to the result objects for all actions (#6 <https://github.com/clearpathrobotics/video_recorder/issues/6>)
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 27 May 2024 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.10-1noble) noble; urgency=high
+
+  * Add the mount_path argument & parameter to the vidio recorder node to allow remapping the result directory if e.g. this node is run inside a docker container
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 04 Jan 2024 05:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.9-1noble) noble; urgency=high
+
+  * Don't abort if we get a double-record or double-stop; treat these as successesful action invocation (but with .success set to false to indicate no new recording was made) and send the existing path if appropriate.
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 07 Sep 2023 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.8-1noble) noble; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Aug 2023 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.7-1noble) noble; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 23 Aug 2023 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.6-1noble) noble; urgency=high
+
+  * Latch the is_recording topic
+  * Use dynamic subscribers to the video topic to preserve bandwidth
+  * Improve the default filename formatting
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 16 Aug 2023 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.5-1noble) noble; urgency=high
+
+  * Add ability to record meta-data about each recording
+  * Add exception handling if the tf lookup fails
+  * Switch from Mat to UMat to allow OpenCL support
+  * Add a space after the zoom colon
+  * Include the ROS topic name in the metadata
+  * Update the readme, add preliminary zoom support
+  * Add first-draft support for recording the robot and camera poses whenever a video starts or image is saved
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 13 Apr 2023 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.4-1noble) noble; urgency=high
+
+  * Make sure the node is actually installed correctly
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 22 Sep 2022 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.3-1noble) noble; urgency=high
+
+  * Allow cancelling fixed-duration videos
+  * Create the output directory if it doesn't already exist
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 01 Sep 2022 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.2-1noble) noble; urgency=high
+
+  * Add an optional parameter to set a hard maximum duration on videos recorded by the node.
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Fri, 24 Jun 2022 04:00:00 -0000
+
+ros-jazzy-video-recorder (0.0.1-1noble) noble; urgency=high
+
+  * Initial release
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 22 Jun 2022 04:00:00 -0000
+
+
