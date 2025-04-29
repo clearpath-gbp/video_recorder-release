@@ -3,6 +3,9 @@ Changelog for package audio_recorder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
+2.0.2 (2025-04-29)
+------------------
+
 2.0.1 (2025-04-23)
 ------------------
 * Add missing dependencies
