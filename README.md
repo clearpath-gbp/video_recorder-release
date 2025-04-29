@@ -1,3 +1,30 @@
+## video_recorder (jazzy) - 2.0.2-1
+
+The packages in the `video_recorder` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -t jazzy -r jazzy video_recorder` on `Tue, 29 Apr 2025 20:47:31 -0000`
+
+These packages were released:
+- `audio_recorder`
+- `audio_recorder_msgs`
+- `video_recorder`
+- `video_recorder_msgs`
+
+Version of package(s) in repository `video_recorder`:
+
+- upstream repository: https://github.com/clearpathrobotics/video_recorder.git
+- release repository: https://github.com/clearpath-gbp/video_recorder-release.git
+- rosdistro version: `2.0.1-1`
+- old version: `2.0.1-1`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## video_recorder (jazzy) - 2.0.1-1
 
 The packages in the `video_recorder` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -t jazzy -r jazzy video_recorder` on `Wed, 23 Apr 2025 15:48:14 -0000`
